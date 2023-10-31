@@ -201,7 +201,7 @@ img {
           flex-direction: column;
   row-gap: 55px;
   overflow-y: scroll;
-  padding: 20px;
+  padding: 23px 20px;
   padding-bottom: 30px;
   background: var(--white);
   -webkit-transform: translateX(-100%);
