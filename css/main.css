@@ -160,6 +160,7 @@ img {
   height: 35px;
   -ms-flex-negative: 0;
       flex-shrink: 0;
+  cursor: pointer;
   display: none;
 }
 
@@ -168,6 +169,7 @@ img {
   height: 30px;
   -ms-flex-negative: 0;
       flex-shrink: 0;
+  cursor: pointer;
   display: none;
 }
 
