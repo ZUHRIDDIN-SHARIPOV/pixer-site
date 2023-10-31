@@ -7,6 +7,13 @@ html {
 *::after {
   box-sizing: inherit;
 }
+:root {
+  --max-width-container: 1140px;
+  --white: #fff;
+  --black: #000;
+  --blue: #00bafc;
+  --dark-blue: #00f;
+}
 body {
   margin: 0;
   // font-family: 'Poppins', sans-serif;
@@ -31,7 +38,7 @@ p {
   margin: 0;
 }
 .container {
-  max-width: 1140px;
+  max-width: var(--max-width-container);
   width: 100%;
   margin: 0 auto;
   padding: 0 20px;
