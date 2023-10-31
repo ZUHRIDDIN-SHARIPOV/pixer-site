@@ -3,6 +3,7 @@
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
+  font-display: swap;
   src: url("../fonts/roboto-v30-latin-regular.woff2") format("woff2"), url("../fonts/roboto-v30-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 html {
@@ -45,7 +46,7 @@ p {
 }
 
 .container {
-  max-width: 100%;
+  max-width: 1140px;
   width: 100%;
   margin: 0 auto;
   padding: 0 20px;
