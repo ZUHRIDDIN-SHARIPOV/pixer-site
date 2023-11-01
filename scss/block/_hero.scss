@@ -2,8 +2,7 @@
   padding-top: 77px;
 }
 .hero__block {
-  padding-top: 97px;
-  padding-bottom: 50px;
+  padding: 97px 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -38,6 +37,7 @@
   border-radius: 5px;
   background: var(--blue);
   color: var(--white);
+  outline: none;
 }
 .hero__video iframe {
   width: 458px;
