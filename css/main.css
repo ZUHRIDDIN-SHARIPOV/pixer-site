@@ -410,6 +410,9 @@ img {
   }
   .hero__content {
     row-gap: 20px;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: start;
   }
   .hero__content-btn {
     margin-top: 10px;
@@ -424,11 +427,6 @@ img {
   }
   .hero__content-btn {
     margin-top: 0;
-  }
-  .hero__content {
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: start;
   }
 }
 @media only screen and (max-width: 350px) {

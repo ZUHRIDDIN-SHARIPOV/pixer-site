@@ -106,6 +106,7 @@
   }
   .hero__content {
     row-gap: 20px;
+    align-items: start;
   }
   .hero__content-btn {
     margin-top: 10px;
@@ -119,10 +120,6 @@
   }
   .hero__content-btn {
     margin-top: 0;
-  }
-
-  .hero__content {
-    align-items: start;
   }
 }
 @media only screen and (max-width: 350px) {
