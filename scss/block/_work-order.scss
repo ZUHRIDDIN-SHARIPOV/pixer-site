@@ -1,3 +1,106 @@
 .work-order {
   padding: 56px 0;
 }
+.work-order__title {
+  font-family: var(--main-font);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 130%;
+  text-align: center;
+  padding-bottom: 16px;
+  color: var(--black);
+}
+.work-order__text {
+  max-width: 719px;
+  font-family: var(--main-font);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 24px;
+  color: var(--black);
+}
+.work-order__list {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 48px;
+  padding-bottom: 48px;
+}
+.work-order__item {
+  max-width: 832px;
+  display: flex;
+  align-items: center;
+  column-gap: 32px;
+}
+.work-order__item-img {
+  max-width: 300px;
+  flex-shrink: 0;
+}
+.work-order__item-content {
+  max-width: 500px;
+}
+.work-order__item-content-title {
+  font-family: var(--main-font);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 130%;
+  padding-bottom: 8px;
+  color: var(--black);
+}
+.work-order__item-content-text {
+  font-family: var(--main-font);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: var(--black);
+}
+.work-order__btn {
+  text-align: center;
+}
+.work-order__btn a {
+  font-family: var(--main-font);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  padding: 8px 16px;
+  border-radius: 5px;
+  outline: none;
+  background: var(--blue);
+  color: var(--white);
+}
+@media only screen and (max-width: 800px) {
+  .work-order__item {
+    flex-direction: column;
+    column-gap: 0;
+    row-gap: 30px;
+  }
+  .work-order__item:nth-child(2) {
+    flex-direction: column-reverse;
+  }
+  .work-order__item:nth-child(4) {
+    flex-direction: column-reverse;
+  }
+  .work-order__item-content {
+    text-align: center;
+  }
+  .work-order__item-img {
+    max-width: 220px;
+  }
+  .work-order__text {
+    padding-bottom: 30px;
+  }
+}
+@media only screen and (max-width: 395px) {
+  .work-order__item-content-title {
+    font-size: 18px;
+  }
+  .work-order__item-content-text {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .work-order__title {
+    font-size: 23px;
+  }
+}
