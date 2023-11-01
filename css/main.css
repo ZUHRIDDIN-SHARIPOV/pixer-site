@@ -41,6 +41,7 @@ html {
   --black: #000;
   --blue: #00bafc;
   --dark-blue: #00f;
+  --main-font: "Open Sans";
 }
 
 body {
@@ -136,7 +137,7 @@ img {
 }
 
 .site-header__item-link {
-  font-family: "Open Sans";
+  font-family: var(--main-font);
   font-size: 15px;
   font-weight: 400;
   line-height: 24px;
@@ -212,7 +213,7 @@ img {
 }
 
 .site-header__mobile-link {
-  font-family: "Open Sans";
+  font-family: var(--main-font);
   font-size: 17px;
   font-weight: 400;
   line-height: 24px;
@@ -269,5 +270,190 @@ img {
   }
 }
 .hero {
-  margin-top: 85px;
+  padding-top: 77px;
+}
+
+.hero__block {
+  padding-top: 97px;
+  padding-bottom: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-column-gap: 172px;
+     -moz-column-gap: 172px;
+          column-gap: 172px;
+}
+
+.hero__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 16px;
+}
+
+.hero__content-title {
+  font-family: var(--main-font);
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 130%;
+  color: var(--black);
+}
+
+.hero__content-text {
+  font-family: var(--main-font);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: var(--black);
+}
+
+.hero__content-btn {
+  font-family: var(--main-font);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  padding: 8px 16px;
+  border-radius: 5px;
+  background: var(--blue);
+  color: var(--white);
+}
+
+.hero__video iframe {
+  width: 458px;
+  height: 258px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  border: none;
+}
+
+@media only screen and (max-width: 1141px) {
+  .hero__block {
+    -webkit-column-gap: 80px;
+       -moz-column-gap: 80px;
+            column-gap: 80px;
+  }
+}
+@media only screen and (max-width: 1048px) {
+  .hero__content-title {
+    font-size: 23px;
+    line-height: 150%;
+  }
+  .hero__block {
+    padding-top: 60px;
+  }
+  .hero__video iframe {
+    width: 355px;
+    height: 200px;
+  }
+}
+@media only screen and (max-width: 836px) {
+  .hero__block {
+    padding-top: 50px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    row-gap: 30px;
+  }
+  .hero__content {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    row-gap: 30px;
+  }
+  .hero__content-text {
+    max-width: 650px;
+  }
+  .hero__video iframe {
+    width: 458px;
+    height: 258px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .hero__video iframe {
+    width: 400px;
+    height: 225px;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+}
+@media only screen and (max-width: 430px) {
+  .hero__video iframe {
+    width: 355px;
+    height: 200px;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  .hero__content-title {
+    font-size: 20px;
+    line-height: 160%;
+  }
+  .hero__block {
+    padding-top: 35px;
+    row-gap: 20px;
+  }
+  .hero__content {
+    row-gap: 20px;
+  }
+  .hero__content-btn {
+    margin-top: 10px;
+  }
+}
+@media only screen and (max-width: 390px) {
+  .hero__video iframe {
+    width: 320px;
+    height: 180px;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  .hero__content-btn {
+    margin-top: 0;
+  }
+  .hero__content {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: start;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .hero__video iframe {
+    width: 300px;
+    height: 160px;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  .hero__content-title {
+    font-size: 18px;
+  }
+  .hero__content-text {
+    font-size: 14px;
+    line-height: 22px;
+  }
+}
+@media only screen and (max-width: 330px) {
+  .hero__video iframe {
+    width: 280px;
+    height: 140px;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  .hero__content-title {
+    font-size: 17px;
+  }
 }/*# sourceMappingURL=main.css.map */
