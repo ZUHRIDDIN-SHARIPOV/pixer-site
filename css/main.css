@@ -850,6 +850,10 @@ img {
   border-radius: 5px;
   background: var(--light-grey);
   color: var(--black);
+  background-image: url("../../images/chevron-down.svg");
+  background-repeat: no-repeat;
+  background-position-x: 270px;
+  background-position-y: 16px;
 }
 
 .placing-order__form-btn {
@@ -866,4 +870,65 @@ img {
   display: inline-block;
   background: var(--blue);
   color: var(--white);
+}
+
+@media only screen and (max-width: 382px) {
+  .placing-order__form-select {
+    background-position-x: 260px;
+  }
+}
+@media only screen and (max-width: 372px) {
+  .placing-order__form-select {
+    background-position-x: 252px;
+  }
+}
+@media only screen and (max-width: 364px) {
+  .placing-order__form-select {
+    background-position-x: 245px;
+  }
+}
+@media only screen and (max-width: 356px) {
+  .placing-order__form-select {
+    background-position-x: 237px;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .placing-order__form-select {
+    background-position-x: 230px;
+  }
+}
+@media only screen and (max-width: 341px) {
+  .placing-order__form-select {
+    background-position-x: 220px;
+  }
+}
+@media only screen and (max-width: 332px) {
+  .placing-order__form-select {
+    background-position-x: 210px;
+  }
+}
+@media only screen and (max-width: 321px) {
+  .placing-order__form-select {
+    background-position-x: 200px;
+  }
+}
+@media only screen and (max-width: 311px) {
+  .placing-order__form-select {
+    background-position-x: 190px;
+  }
+}
+@media only screen and (max-width: 304px) {
+  .placing-order__form-select {
+    background-position-x: 185px;
+  }
+}
+@media only screen and (max-width: 297px) {
+  .placing-order__form-select {
+    background-position-x: 175px;
+  }
+}
+@media only screen and (max-width: 287px) {
+  .placing-order__form-select {
+    background-position-x: 165px;
+  }
 }/*# sourceMappingURL=main.css.map */
