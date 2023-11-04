@@ -8,13 +8,13 @@ html {
   box-sizing: inherit;
 }
 :root {
-  --max-width-container: 1140px;
+  --main-font: "Open Sans";
   --white: #fff;
   --black: #000;
   --blue: #00bafc;
   --dark-blue: #00f;
   --light-grey: #f3f3f3;
-  --main-font: "Open Sans";
+  --gray: #f4f4f4;
 }
 body {
   margin: 0;
@@ -40,7 +40,7 @@ p {
   margin: 0;
 }
 .container {
-  max-width: var(--max-width-container);
+  max-width: 1140px;
   width: 100%;
   margin: 0 auto;
   padding: 0 20px;

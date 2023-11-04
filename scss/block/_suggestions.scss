@@ -1,0 +1,114 @@
+.suggestions-hero {
+  padding-top: 77px;
+}
+.suggestions-hero__block {
+  padding: 72px 0;
+}
+.suggestions-hero__title {
+  font-family: var(--main-font);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 130%;
+  text-align: center;
+  color: var(--black);
+}
+.suggestions-hero__text {
+  max-width: 800px;
+  font-family: var(--main-font);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0 auto;
+  padding-top: 16px;
+  text-align: center;
+  color: var(--black);
+}
+.suggestions {
+  padding: 80px 0;
+  background: var(--gray);
+}
+.suggestions__list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 64px;
+}
+.suggestions__item {
+  display: flex;
+  column-gap: 40px;
+  padding: 32px;
+  border-radius: 5px;
+  background: var(--white);
+  box-shadow: 0px 10px 16px 0px rgba(0, 0, 0, 0.12);
+}
+.suggestions__item-img {
+  max-width: 200px;
+  width: 100%;
+  flex-shrink: 0;
+}
+.suggestions__item-content-title {
+  font-family: var(--main-font);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 130%;
+  color: var(--black);
+}
+.suggestions__item-content-text,
+.suggestions__item-content-offer {
+  font-family: var(--main-font);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  padding-top: 16px;
+  padding-bottom: 8px;
+  color: var(--black);
+}
+.suggestions__item-content-offer {
+  padding: 8px 0;
+}
+.suggestions__item-content-offer::before {
+  content: "";
+  width: 12px;
+  height: 12px;
+  background-image: url("../../images/circle.svg");
+  display: inline-block;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+.suggestions__btns {
+  margin-top: 8px;
+  display: flex;
+  align-items: center;
+  column-gap: 16px;
+}
+.suggestions__btns-link:first-child {
+  max-width: 167px;
+  font-family: var(--main-font);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  padding: 8px 16px;
+  border-radius: 5px;
+  background: var(--blue);
+  color: var(--white);
+}
+.suggestions__btns-link:last-child {
+  font-family: var(--main-font);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-decoration-line: underline;
+  color: var(--blue);
+}
+
+@media only screen and (max-width: 690px) {
+  .suggestions__item {
+    flex-direction: column;
+    row-gap: 30px;
+  }
+}
+@media only screen and (max-width: 418px) {
+  .suggestions__btns {
+    flex-direction: column;
+    row-gap: 16px;
+  }
+}
