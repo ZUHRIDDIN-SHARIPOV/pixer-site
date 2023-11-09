@@ -37,16 +37,26 @@
   line-height: 24px;
   color: var(--black);
   outline: none;
+  &:hover {
+    @include navigationHoverStyle;
+  }
 }
 .site-header__item:last-child {
   margin-left: 23px;
   padding: 8px 16px;
+  border: 1px solid transparent;
   border-radius: 5px;
   background: var(--blue);
   cursor: pointer;
   .site-header__item-link {
     font-weight: 700;
     color: var(--white);
+  }
+  &:hover {
+    @include btnHoverStyle;
+    .site-header__item-link {
+      color: var(--blue);
+    }
   }
 }
 .site-header__menu-logo {
@@ -99,9 +109,10 @@
   color: var(--black);
 }
 .site-header__mobile-item:last-child {
-  max-width: 160px;
+  max-width: 163px;
   padding: 8px 16px;
   margin-left: -5px;
+  border: 1px solid transparent;
   border-radius: 5px;
   background: var(--dark-blue);
   cursor: pointer;
@@ -109,6 +120,12 @@
     font-weight: 700;
     font-size: 15px;
     color: var(--white);
+  }
+  &:hover {
+    @include btnHoverStyle;
+    .site-header__mobile-link {
+      color: var(--blue);
+    }
   }
 }
 .site-header__mobile-key {

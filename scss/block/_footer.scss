@@ -36,6 +36,14 @@
   line-height: 150%;
   color: var(--white);
 }
+.site-footer__item-link,
+.site-footer__item-telegram,
+.site-footer__item-facebook,
+.site-footer__item-instagram {
+  &:hover {
+    @include navigationHoverStyle;
+  }
+}
 .site-footer__item-telegram::before {
   content: "";
   width: 22px;

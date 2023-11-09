@@ -51,3 +51,14 @@ img {
   height: auto;
   display: inline-block;
 }
+
+@mixin navigationHoverStyle {
+  color: var(--blue);
+  transition: 0.3s;
+}
+@mixin btnHoverStyle {
+  border: 1px solid var(--blue);
+  background: var(--white);
+  color: var(--blue);
+  transition: 0.3s;
+}

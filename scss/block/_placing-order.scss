@@ -79,7 +79,7 @@
   background-position-y: 16px;
 }
 .placing-order__form-btn {
-  max-width: 167px;
+  max-width: 170px;
   font-family: var(--main-font);
   font-size: 16px;
   font-weight: 700;
@@ -87,11 +87,15 @@
   margin: 0 auto;
   padding: 8px 16px;
   outline: none;
-  border: none;
+  border: 1px solid transparent;
   border-radius: 5px;
   display: inline-block;
   background: var(--blue);
   color: var(--white);
+  cursor: pointer;
+  &:hover {
+    @include btnHoverStyle;
+  }
 }
 @media only screen and (max-width: 382px) {
   .placing-order__form-select {
