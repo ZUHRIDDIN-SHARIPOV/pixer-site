@@ -1,0 +1,14 @@
+{
+  "name": "Pixer site",
+  "icons": [
+    {
+      "src": "https://media.istockphoto.com/id/1300267568/vector/letter-p-fast-speed-motion-logo.jpg?b=1&s=612x612&w=0&k=20&c=nMQzqKLhv2pUAGo1IUSNZlJdRbC8JjVnEqM3bYaHaAY=",
+      "type": "image/png",
+      "sizes": "230x230"
+    }
+  ],
+  "start_url": ".",
+  "background_color": "#fff",
+  "theme_color": "#000",
+  "display": "standalone"
+}
